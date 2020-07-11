@@ -1,0 +1,1 @@
+export { default } from "/home/ourongxing/Blog/node_modules/vuepress-plugin-baidu-tongji/inject.js"
