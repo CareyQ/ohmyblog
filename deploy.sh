@@ -17,7 +17,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   aliUrl=git@47.100.27.13:/var/repo/ohmyblog.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://ourongxing:${GITHUB_TOKEN}@github.com:ourongxing/ohmyblog.git
+  githubUrl=https://ourongxing:${GITHUB_TOKEN}@github.com/ourongxing/ohmyblog.git
   git config --global user.name "ourongxing"
   git config --global user.email "orongxing@gmail.com"
 
