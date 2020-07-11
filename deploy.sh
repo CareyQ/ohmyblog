@@ -38,6 +38,5 @@ git push -f $aliUrl master # 推送到github
 # git add -A
 # git commit -m "${msg}"
 # git push -f $codingUrl master # 推送到coding
-
 cd - # 退回开始所在目录
 rm -rf docs/.vuepress/dist
