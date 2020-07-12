@@ -11,20 +11,20 @@ cd docs/.vuepress/dist
 
 # deploy to github
 # echo 'blog.orxing.top' > CNAME
-if [ -z "$GITHUB_TOKEN" ]; then
-  msg='deploy'
-  githubUrl=git@github.com:ourongxing/ohmyblog.git
-else
-  msg='来自github actions的自动部署'
-  githubUrl=https://ourongxing:${GITHUB_TOKEN}@github.com/ourongxing/ohmyblog.git
-  git config --global user.name "ourongxing"
-  git config --global user.email "orongxing@gmail.com"
-fi
-
-git init
-git add -A
-git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github
+# if [ -z "$GITHUB_TOKEN" ]; then
+#   msg='deploy'
+#   githubUrl=git@github.com:ourongxing/ohmyblog.git
+# else
+#   msg='来自github actions的自动部署'
+#   githubUrl=https://ourongxing:${GITHUB_TOKEN}@github.com/ourongxing/ohmyblog.git
+#   git config --global user.name "ourongxing"
+#   git config --global user.email "orongxing@gmail.com"
+# fi
+#
+# git init
+# git add -A
+# git commit -m "${msg}"
+# git push -f $githubUrl master:gh-pages # 推送到github
 
 # deploy to coding
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
