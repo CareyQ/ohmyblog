@@ -32,6 +32,8 @@ if [ -z "$ALI_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKE
   aliUrl=git@47.100.27.13:/var/repo/ohmyblog.git
 else
   aliUrl=https://git:${ALI_TOKEN}@47.100.27.13:/var/repo/ohmyblog.git
+  git config --global user.name "ourongxing"
+  git config --global user.email "orongxing@gmail.com"
 fi
 git add -A
 git commit -m "${msg}"
