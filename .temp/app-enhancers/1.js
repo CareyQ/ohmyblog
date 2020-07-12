@@ -1,1 +1,1 @@
-export { default } from "/home/ourongxing/Blog/theme-vdoing/enhanceApp.js"
+export { default } from "/home/ourongxing/Github/ohmyblog/theme-vdoing/enhanceApp.js"

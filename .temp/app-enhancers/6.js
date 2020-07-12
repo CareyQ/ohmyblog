@@ -1,1 +1,1 @@
-export { default } from "/home/ourongxing/Blog/node_modules/vuepress-plugin-comment/comment.js"
+export { default } from "/home/ourongxing/Github/ohmyblog/node_modules/vuepress-plugin-comment/comment.js"

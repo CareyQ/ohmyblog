@@ -23,13 +23,6 @@ export const siteData = {
     [
       "meta",
       {
-        "name": "baidu-site-verification",
-        "content": "7F55weZDDc"
-      }
-    ],
-    [
-      "meta",
-      {
         "name": "theme-color",
         "content": "#11a8cd"
       }
@@ -57,8 +50,9 @@ export const siteData = {
       },
       "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/01.%E6%8A%80%E6%9C%AF.html",
       "relativePath": "00.目录页/01.技术.md",
-      "key": "v-7fa0df8e",
-      "path": "/technology/"
+      "key": "v-5a562b61",
+      "path": "/technology/",
+      "lastUpdated": "2020/07/12, 2:07:00"
     },
     {
       "title": "数码",
@@ -81,31 +75,9 @@ export const siteData = {
       },
       "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/02.%E6%95%B0%E7%A0%81.html",
       "relativePath": "00.目录页/02.数码.md",
-      "key": "v-58d82de1",
-      "path": "/digital/"
-    },
-    {
-      "title": "C++笔记",
-      "frontmatter": {
-        "pageComponent": {
-          "name": "Catalogue",
-          "data": {
-            "key": "Cpp笔记",
-            "imgUrl": "https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200204143633.png",
-            "description": "C++的学习笔记"
-          }
-        },
-        "title": "C++笔记",
-        "date": "2020-02-04T12:16:12.000Z",
-        "permalink": "/note/cpp",
-        "article": false,
-        "comment": false,
-        "editLink": false
-      },
-      "regularPath": "/01.%E6%8A%80%E6%9C%AF/00.%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/00.Cpp%E7%AC%94%E8%AE%B0.html",
-      "relativePath": "01.技术/00.学习笔记/00.Cpp笔记.md",
-      "key": "v-edac3580",
-      "path": "/note/cpp/"
+      "key": "v-338d79b4",
+      "path": "/digital/",
+      "lastUpdated": "2020/07/12, 2:07:00"
     },
     {
       "title": "其他",
@@ -128,65 +100,33 @@ export const siteData = {
       },
       "regularPath": "/00.%E7%9B%AE%E5%BD%95%E9%A1%B5/03.%E5%85%B6%E4%BB%96.html",
       "relativePath": "00.目录页/03.其他.md",
-      "key": "v-e872a530",
-      "path": "/other/"
+      "key": "v-667bf93b",
+      "path": "/other/",
+      "lastUpdated": "2020/07/12, 2:07:00"
     },
     {
-      "title": "简陋的导航",
+      "title": "C++笔记",
       "frontmatter": {
-        "title": "简陋的导航",
-        "date": "2019-07-09T00:00:00.000Z",
-        "categories": [
-          "分享"
-        ],
-        "permalink": "/pages/b27813/",
-        "sticky": 1,
-        "tags": [
-          "网站分享"
-        ]
+        "pageComponent": {
+          "name": "Catalogue",
+          "data": {
+            "key": "Cpp笔记",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200204143633.png",
+            "description": "C++的学习笔记"
+          }
+        },
+        "title": "C++笔记",
+        "date": "2020-02-04T12:16:12.000Z",
+        "permalink": "/note/cpp",
+        "article": false,
+        "comment": false,
+        "editLink": false
       },
-      "regularPath": "/03.%E5%85%B6%E4%BB%96/01.%E5%88%86%E4%BA%AB/01.%E7%AE%80%E9%99%8B%E7%9A%84%E5%AF%BC%E8%88%AA.html",
-      "relativePath": "03.其他/01.分享/01.简陋的导航.md",
-      "key": "v-03a27560",
-      "path": "/pages/b27813/",
-      "headers": [
-        {
-          "level": 3,
-          "title": "📖 更新日志",
-          "slug": "更新日志"
-        },
-        {
-          "level": 3,
-          "title": "🎞 在线视频",
-          "slug": "在线视频"
-        },
-        {
-          "level": 3,
-          "title": "🔩 破解软件",
-          "slug": "破解软件"
-        },
-        {
-          "level": 3,
-          "title": "📓 免费小说",
-          "slug": "免费小说"
-        },
-        {
-          "level": 3,
-          "title": "💾 云盘搜索",
-          "slug": "云盘搜索"
-        },
-        {
-          "level": 3,
-          "title": "🔍 搜索引擎",
-          "slug": "搜索引擎"
-        },
-        {
-          "level": 3,
-          "title": "🚢 Onedrive 资源站",
-          "slug": "onedrive-资源站"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">持续更新</p>\n<p>分享一些特殊的网站<br>\n欢迎在下方留言补充更多网站</p>\n</div>\n"
+      "regularPath": "/01.%E6%8A%80%E6%9C%AF/00.%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/00.Cpp%E7%AC%94%E8%AE%B0.html",
+      "relativePath": "01.技术/00.学习笔记/00.Cpp笔记.md",
+      "key": "v-73db0093",
+      "path": "/note/cpp/",
+      "lastUpdated": "2020/07/12, 2:07:00"
     },
     {
       "title": "你会用 Chrome 吗（扩展篇）",
@@ -204,7 +144,7 @@ export const siteData = {
       },
       "regularPath": "/03.%E5%85%B6%E4%BB%96/01.%E5%88%86%E4%BA%AB/00.%E4%BD%A0%E4%BC%9A%E7%94%A8chrome%E5%90%97%EF%BC%88%E4%B8%80%EF%BC%89.html",
       "relativePath": "03.其他/01.分享/00.你会用chrome吗（一）.md",
-      "key": "v-6e814736",
+      "key": "v-01a88a38",
       "path": "/pages/ebff14/",
       "headers": [
         {
@@ -283,7 +223,66 @@ export const siteData = {
           "slug": "octotree"
         }
       ],
-      "excerpt": "<blockquote>\n<p>本文主要介绍 Chrome 扩展的食用，长期更新</p>\n</blockquote>\n<h2 id=\"前言\"><a class=\"header-anchor\" href=\"#前言\">#</a> 前言</h2>\n<p>有个段子这样说，<strong>win10 上 IE 存在的唯一价值就是用来下载 Chrome</strong></p>\n<p>Chrome 是目前浏览器界当之无愧的霸主，除了更快、功能更强大外，更是因为 Google 将 Chrome 开源，也就是 Chromium 项目，任何人都可以基于 Chromium 开发自己的浏览器，国内的浏览器大多都是基于 Chromium ，加了本地化的功能，然而也加入了广告，我非常不建议使用这些大厂浏览器</p>\n"
+      "excerpt": "<blockquote>\n<p>本文主要介绍 Chrome 扩展的食用，长期更新</p>\n</blockquote>\n<h2 id=\"前言\"><a class=\"header-anchor\" href=\"#前言\">#</a> 前言</h2>\n<p>有个段子这样说，<strong>win10 上 IE 存在的唯一价值就是用来下载 Chrome</strong></p>\n<p>Chrome 是目前浏览器界当之无愧的霸主，除了更快、功能更强大外，更是因为 Google 将 Chrome 开源，也就是 Chromium 项目，任何人都可以基于 Chromium 开发自己的浏览器，国内的浏览器大多都是基于 Chromium ，加了本地化的功能，然而也加入了广告，我非常不建议使用这些大厂浏览器</p>\n",
+      "lastUpdated": "2020/07/12, 2:07:00"
+    },
+    {
+      "title": "简陋的导航",
+      "frontmatter": {
+        "title": "简陋的导航",
+        "date": "2019-07-09T00:00:00.000Z",
+        "categories": [
+          "分享"
+        ],
+        "permalink": "/pages/b27813/",
+        "sticky": 1,
+        "tags": [
+          "网站分享"
+        ]
+      },
+      "regularPath": "/03.%E5%85%B6%E4%BB%96/01.%E5%88%86%E4%BA%AB/01.%E7%AE%80%E9%99%8B%E7%9A%84%E5%AF%BC%E8%88%AA.html",
+      "relativePath": "03.其他/01.分享/01.简陋的导航.md",
+      "key": "v-ad2801ba",
+      "path": "/pages/b27813/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "📖 更新日志",
+          "slug": "更新日志"
+        },
+        {
+          "level": 3,
+          "title": "🎞 在线视频",
+          "slug": "在线视频"
+        },
+        {
+          "level": 3,
+          "title": "🔩 破解软件",
+          "slug": "破解软件"
+        },
+        {
+          "level": 3,
+          "title": "📓 免费小说",
+          "slug": "免费小说"
+        },
+        {
+          "level": 3,
+          "title": "💾 云盘搜索",
+          "slug": "云盘搜索"
+        },
+        {
+          "level": 3,
+          "title": "🔍 搜索引擎",
+          "slug": "搜索引擎"
+        },
+        {
+          "level": 3,
+          "title": "🚢 Onedrive 资源站",
+          "slug": "onedrive-资源站"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"custom-block-title\">持续更新</p>\n<p>分享一些特殊的网站<br>\n欢迎在下方留言补充更多网站</p>\n</div>\n",
+      "lastUpdated": "2020/07/12, 2:07:00"
     },
     {
       "title": "关于",
@@ -296,7 +295,7 @@ export const siteData = {
       },
       "regularPath": "/05.%E5%85%B3%E4%BA%8E/01.%E5%85%B3%E4%BA%8E.html",
       "relativePath": "05.关于/01.关于.md",
-      "key": "v-7233f924",
+      "key": "v-91c529fe",
       "path": "/about/",
       "headers": [
         {
@@ -309,20 +308,8 @@ export const siteData = {
           "title": "✉️ 联系",
           "slug": "联系"
         }
-      ]
-    },
-    {
-      "title": "分类",
-      "frontmatter": {
-        "categoriesPage": true,
-        "title": "分类",
-        "permalink": "/categories/",
-        "article": false
-      },
-      "regularPath": "/@pages/categoriesPage.html",
-      "relativePath": "@pages/categoriesPage.md",
-      "key": "v-651fe48a",
-      "path": "/categories/"
+      ],
+      "lastUpdated": "2020/07/12, 2:07:00"
     },
     {
       "title": "归档",
@@ -334,8 +321,23 @@ export const siteData = {
       },
       "regularPath": "/@pages/archivesPage.html",
       "relativePath": "@pages/archivesPage.md",
-      "key": "v-083e83aa",
-      "path": "/archives/"
+      "key": "v-7065713d",
+      "path": "/archives/",
+      "lastUpdated": "2020/07/12, 2:07:00"
+    },
+    {
+      "title": "分类",
+      "frontmatter": {
+        "categoriesPage": true,
+        "title": "分类",
+        "permalink": "/categories/",
+        "article": false
+      },
+      "regularPath": "/@pages/categoriesPage.html",
+      "relativePath": "@pages/categoriesPage.md",
+      "key": "v-5e1fd09d",
+      "path": "/categories/",
+      "lastUpdated": "2020/07/12, 2:07:00"
     },
     {
       "title": "标签",
@@ -347,8 +349,9 @@ export const siteData = {
       },
       "regularPath": "/@pages/tagsPage.html",
       "relativePath": "@pages/tagsPage.md",
-      "key": "v-d40643ac",
-      "path": "/tags/"
+      "key": "v-41080ebd",
+      "path": "/tags/",
+      "lastUpdated": "2020/07/12, 2:07:00"
     },
     {
       "title": "继承与派生",
@@ -365,7 +368,7 @@ export const siteData = {
       },
       "regularPath": "/Cpp%E7%AC%94%E8%AE%B0/10.%E7%BB%A7%E6%89%BF%E4%B8%8E%E6%B4%BE%E7%94%9F.html",
       "relativePath": "Cpp笔记/10.继承与派生.md",
-      "key": "v-7cc679f2",
+      "key": "v-1cfa9e45",
       "path": "/pages/766282/",
       "headers": [
         {
@@ -399,7 +402,8 @@ export const siteData = {
           "slug": "如何多继承"
         }
       ],
-      "excerpt": "<blockquote>\n<p>继承性是面向对象语言最为重要的一个特征，大多数人也是从继承开始体会到C++的难度了，我也是一直没太搞清楚，这里来分享一下自己的理解，欢迎提出意见和建议</p>\n</blockquote>\n<h3 id=\"什么是继承，什么是派生\"><a class=\"header-anchor\" href=\"#什么是继承，什么是派生\">#</a> 什么是继承，什么是派生</h3>\n<p>从字面上就很清楚了，父母派生出了孩子，儿子继承了父母的财产，就是生孩子和继承财产的关系，本质上没什么区别。我最早接触派生这个词是在英语，派生是单词的一种构造方法，通过加一些前缀或者后缀来产生新的单词，这里的派生也是类似。</p>\n"
+      "excerpt": "<blockquote>\n<p>继承性是面向对象语言最为重要的一个特征，大多数人也是从继承开始体会到C++的难度了，我也是一直没太搞清楚，这里来分享一下自己的理解，欢迎提出意见和建议</p>\n</blockquote>\n<h3 id=\"什么是继承，什么是派生\"><a class=\"header-anchor\" href=\"#什么是继承，什么是派生\">#</a> 什么是继承，什么是派生</h3>\n<p>从字面上就很清楚了，父母派生出了孩子，儿子继承了父母的财产，就是生孩子和继承财产的关系，本质上没什么区别。我最早接触派生这个词是在英语，派生是单词的一种构造方法，通过加一些前缀或者后缀来产生新的单词，这里的派生也是类似。</p>\n",
+      "lastUpdated": "2020/07/12, 2:07:00"
     },
     {
       "title": "友情链接",
@@ -412,7 +416,7 @@ export const siteData = {
       },
       "regularPath": "/_posts/99.%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5.html",
       "relativePath": "_posts/99.友情链接.md",
-      "key": "v-24ed466d",
+      "key": "v-5c211880",
       "path": "/friends/",
       "headers": [
         {
@@ -420,7 +424,8 @@ export const siteData = {
           "title": "友链申请",
           "slug": "友链申请"
         }
-      ]
+      ],
+      "lastUpdated": "2020/07/12, 2:07:00"
     },
     {
       "title": "Home",
@@ -451,8 +456,9 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "index.md",
-      "key": "v-9163e4fa",
-      "path": "/"
+      "key": "v-4c691d54",
+      "path": "/",
+      "lastUpdated": "2020/07/12, 2:07:00"
     }
   ],
   "themeConfig": {
@@ -494,7 +500,7 @@ export const siteData = {
     ],
     "sidebarDepth": 2,
     "logo": "/img/logo.png",
-    "repo": "ourongxing/ourongxing.github.io",
+    "repo": "ourongxing/ohmyblog",
     "searchMaxSuggestions": 10,
     "lastUpdated": "上次更新",
     "docsDir": "docs",

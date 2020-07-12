@@ -19,7 +19,7 @@
       />
     </div>
 
-    repo link
+    <!-- repo link -->
     <a
       v-if="repoLink"
       :href="repoLink"
