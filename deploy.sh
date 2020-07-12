@@ -29,8 +29,10 @@ cd docs/.vuepress/dist
 # deploy to coding
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
 if [ -z "$ALI_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
+  msg='deploy'
   aliUrl=git@47.100.27.13:/var/repo/ohmyblog.git
 else
+  msg='来自github actions的自动部署'
   aliUrl=https://git:${ALI_TOKEN}@47.100.27.13:/var/repo/ohmyblog.git
   git config --global user.name "ourongxing"
   git config --global user.email "orongxing@gmail.com"
