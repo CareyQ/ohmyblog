@@ -4,9 +4,9 @@
       <slot name="mainLeft" />
     </div>
 
-    <div class="main-right">
-      <slot name="mainRight" />
-    </div>
+    <!-- <div class="main-right"> -->
+    <!--   <slot name="mainRight" /> -->
+    <!-- </div> -->
   </div>
 </template>
 <style lang="stylus">
@@ -41,8 +41,7 @@
     margin .9rem 0
     padding 0
     display block
-    .main-left
-      width 100%
+    .main-left width 100%
       .post-list
         margin-bottom 3rem
         .post

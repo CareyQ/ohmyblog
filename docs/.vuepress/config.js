@@ -100,11 +100,7 @@ module.exports = {
       copyrightInfo: '<a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
     }
   },
-  plugins: [ // 插件
-    // [require('./plugins/love-me'), { // 鼠标点击爱心特效
-    //   color: '#11a8cd', // 爱心颜色，默认随机色
-    //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-    // }],
+  plugins: [ 
 
     ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
       thirdparty: [ // 可选，默认 []
@@ -132,8 +128,6 @@ module.exports = {
       ]
     }],
 
-    'vuepress-plugin-baidu-autopush', // 百度自动推送
-
     ['one-click-copy', { // 代码块复制按钮
       copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
       copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
@@ -160,54 +154,13 @@ module.exports = {
       },
     ],
     [
-      'vuepress-plugin-baidu-tongji', // 百度统计
-      {
-        hm: ''
-      }
-    ],
-    [
-      'vuepress-plugin-comment', // 评论
-      {
-        choosen: 'valine',
-        options: {
-          el: '#valine-vuepress-comment',
-          appId: 'KEHl5AuqczLypFUq3ff3MM5V-gzGzoHsz',
-          appKey: 'RKDXmA0jJuKRw5N2q0leFFhu'
-        }
-      }
-      // {
-      //   choosen: 'gitalk',
-      //   options: {
-      //     clientID: 'a6e1355287947096b88b',
-      //     clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-      //     repo: 'vuepress-theme-vdoing', // GitHub 仓库
-      //     owner: 'xugaoyi', // GitHub仓库所有者
-      //     admin: ['xugaoyi'], // 对仓库有写权限的人
-      //     // distractionFreeMode: true,
-      //     pagerDirection: 'last', // 'first'正序 | 'last'倒序
-      //     id: "<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>", //  页面的唯一标识,长度不能超过50
-      //     title: "「评论」<%- frontmatter.title %>", // GitHub issue 的标题
-      //     labels: ["Gitalk", "Comment"], // GitHub issue 的标签
-      //     body:"页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
-      //   }
-      // }
-    ],
-    [
       '@vuepress/last-updated', // "上次更新"时间格式
       {
-        transformer: (timestamp, lang) => {
+        transformer: (timestamp,) => {
           const moment = require('moment') // https://momentjs.com/
           return moment(timestamp).format('YYYY/MM/DD, H:MM:SS');
         }
       }
     ]
   ],
-  // configureWebpack: {
-  //   //webpack别名 如![Image from alias](~@alias/image.png)
-  //   resolve: {
-  //     alias: {
-  //       '@alias': 'path/to/some/dir'
-  //     }
-  //   }
-  // }
 }

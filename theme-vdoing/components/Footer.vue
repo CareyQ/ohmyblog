@@ -44,10 +44,9 @@ export default {
 // $mobileSidebarWidth = $sidebarWidth * 0.82
 
 .footer
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABOSURBVFhH7c6xCQAgDAVRR9A6E4hLu4uLiWJ7tSnuQcIvr2TRYsw3/zOGGEOMIcYQY4gxxBhiDDGGGEOMIcYQY4gxxBhiDLkx52W4Gn1tuslCtHJvL54AAAAASUVORK5CYII=") rgb(40, 40, 45);
   padding 2rem 1.5rem 1.5rem 
   text-align center
-  color #fff
+  color #000
   box-sizing border-box
   font-size .85rem
   transition all .2s ease
